@@ -33,7 +33,7 @@ public class EjemploRegistraController {
 		List<Ejemplo> lista = EjemploService.listaEjemplo();
 		return ResponseEntity.ok(lista);
 	}
-	
+	//Ejemplo
 	@PostMapping
 	@ResponseBody
 	public ResponseEntity<?> inserta(@RequestBody Ejemplo obj){
